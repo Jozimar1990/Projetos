@@ -32,7 +32,7 @@ body{
 
 }
 a{
-    text-decoration: dotted;
+    text-decoration: none;
 }
 
 span{
@@ -41,7 +41,8 @@ span{
     padding: 5px;
 }
 
-span :hover{
+span:hover{
+    text-decoration-color: black;
     color: blue;
     background-color: azure;
 }
