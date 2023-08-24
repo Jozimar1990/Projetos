@@ -1,0 +1,29 @@
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: azure;
+    border-radius: 100px;
+}
+.tela{
+    background-color: darkgoldenrod;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 9px 0px 8px 0px ;
+}
+
+h1{
+    text-align: justify;
+    margin-bottom: auto;
+
+}
+img{
+    height: 225px;
+    width: 225px;
+}
