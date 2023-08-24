@@ -3,14 +3,15 @@
     margin: 5px;
 }
 
-.conteiner{
+.conteiner, .conteiner2{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     background-color: azure;
     border-radius: 100px;
 }
-.tela{
+
+.tela, .janela_popup{
     background-color: darkgoldenrod;
     margin: 30px;
     border-radius: 20px;
