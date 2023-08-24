@@ -31,3 +31,17 @@ body{
     background-color: bisque;
 
 }
+a{
+    text-decoration: dotted;
+}
+
+span{
+    background-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+span :hover{
+    color: blue;
+    background-color: azure;
+}
