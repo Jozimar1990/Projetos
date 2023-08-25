@@ -104,4 +104,5 @@ input:hover{
         0 0 50px #03e9f4,
         0 0 100px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    animation-name: initial;
 }
