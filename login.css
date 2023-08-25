@@ -1,0 +1,81 @@
+*{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: beige;
+    background-image: url(caferozi.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login{
+    background-color: rgb(245, 235, 220);
+    margin-top: 10rem;
+    margin: 25rem;
+    padding: 25rem;
+    margin-left: 20rem;
+    margin-right: 250rem;
+    border-radius: 200rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem .5rem 0rem black;
+}
+
+.login:hover{
+    background-color: blue;
+    /*transition: 1.5s;*/
+}
+
+.login img{
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+}  
+
+input{
+    padding: 10px;
+    border-radius: 120px;
+    border: 1px solid white;
+    box-shadow: none;
+    margin: 10px;
+    color: black;
+}
+
+input:hover{
+    color: white;
+    border: 4px  solid white;
+    transform: 0.3s;
+    background-color: transparent;
+}
+
+#botao{
+    font-size: 20px;
+    border-radius: 120px;
+    border: 3px solid white;
+    background-color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display:  inline-block;
+}
+
+#botao:hover{
+    background-color: transparent;
+    cursor: grabbing;
+    /*transition: 1s;*/
+    color: white;
+}
